@@ -4,3 +4,9 @@ def square_array(array)
 
   squares
 end
+
+
+def square_with_collect(array)
+  array.collect {|x| x**2 }
+
+end
